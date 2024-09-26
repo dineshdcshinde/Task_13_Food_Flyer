@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #111; */
+    background-color: #fbfbfb;
+    /* color: white; */
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1%;
+    margin: 0 auto;
+    /* margin-top: 1%; */
+    height: 100%;
+    width: 100%;
+    max-width: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main .heading{
+    /* color: blue; */
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.main .subhead{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.5%;
+}
+
+/* highlights */
+
+.highlights{
+    overflow-x: hidden;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content:space-around;
+    align-items: center;
+    gap: 0.5%;
+    margin: 0 auto;
+    margin-top: 1%;
+    /* height: 100%; */
+    width: 100%;
+    max-width: 70%;
+}
+
+.highlights .foodItems{
+    height: 30%;
+    width: auto;
+    margin-top: 1%;
+}
+
+.highlights img{
+    height: 150px;
+    width: fit-content;
+    transition: transform 0.3s linear;
+}
+.highlights img:hover{
+    cursor: pointer;
+    transform:scaleX(1.02);
+}
+
+.highlights p{
+    font-size: 1.3rem;
+    /* color: black; */
+    text-align: center;
+}
+
+/* keypoints */
+
+.keypoints{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1%;
+    margin: 0 auto;
+    /* margin-top: 1%; */
+    height: 100%;
+    width: 100%;
+    max-width: 70%;
+    margin-top: 1%;
+}
+
+.keypoints p{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding: 1%;
+}
+
+.keypoints .des{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.3;  
+}
